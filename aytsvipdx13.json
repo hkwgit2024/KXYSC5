@@ -14,8 +14,6 @@
     {"key": "drpy_js_菜狗","name": "🐕搜狗影视┃买康兄影视盒子就送双端专享会员","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/菜狗.js"},
     {"key": "drpy_js_优酷","name": "🍎优酷┃买康兄影视盒子就送双端专享会员","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/优酷.js"},
     {"key": "drpy_js_360影视","name": "🌲360影视┃买康兄影视盒子就送双端专享会员","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/360影视.js"},
-    {"key": "drpy_js_厂长资源","name": "影视 | 厂长资源[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/厂长资源.js","header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"}},
-    {"key": "drpy_js_58动漫","name": "动漫 | 58动漫[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/58动漫.js"},
 
     {"key": "drpy_js_TVB云播","name": "影视 | TVB云播[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/TVB云播.js","header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"}},
     {"key": "闪雷","name": "闪雷┃MP4","type": 3,"api": "./FTY/drpy2.min.js","ext": "./js/678.js","header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"}},
@@ -99,6 +97,8 @@
     {"key": "cc","name": "请勿相信视频中任何广告","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/drpy.js"}
   ],
   "parses": [
+    {"name": "巧计","type": 1,"url": "https://zy.qiaoji8.com/xiafan.php?url=","ext": {"flag": ["QD4K","iyf","duanju","gzcj","GTV","GZYS","weggz","Ace"],"header": {"User-Agent": "okhttp/4.9.1"}}},
+    {"name": "虾米","type": 0,"url": "https://jx.xmflv.com/?url=","ext": {"header": {"user-agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36Edg/110.0.1587.57"}}},
     {"name": "Json聚合","type": 3,"url": "Demo"},
     {"name": "jx","type": 0,"url": "https://jx.m3u8.tv/jx/jx.php?url="},
     {"name": "羽路均沾","type": 0,"url": "https://ylu.cc/index.php?url="},
